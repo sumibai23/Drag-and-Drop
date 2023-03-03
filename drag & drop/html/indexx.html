@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="/css/stylee.css">
+</head>
+<body>
+    <h1>Drop and Drag Pizza</h1>
+ <div class="container">
+    <img src="/images/IMG_20170819_162616_187.jpg" alt="" draggable="true" ondragstart="drag(event)" class="pizza1">
+    <img src="/images/Pizza Food Hd Wallpaper.jpg" alt="" draggable="true" ondragstart="drag(event)" class="pizza1">
+    <img src="/images/IMG_20170819_162616_187.jpg" alt="" draggable="true" ondragstart="drag(event)" class="pizza1">
+ </div>  
+ <div class="contain">
+    <div class="figure">
+        <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <h2>drop here</h2>
+    </div>
+ </div>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>

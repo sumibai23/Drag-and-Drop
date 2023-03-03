@@ -1,0 +1,27 @@
+body{
+    background: rgb(138, 135, 153);
+}
+img{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+.figure{
+    display: inline-block;
+    height: 155px;
+    width: 155px;
+    margin: 10px;
+    background-color: transparent;
+    border: 3px rgb(12, 10, 10) solid;
+}
+.box{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
